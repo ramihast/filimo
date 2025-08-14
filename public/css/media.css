@@ -1,0 +1,253 @@
+/*! width 1200px */
+@media only screen and (max-width: 75em) {
+  .slider__details-main {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .slider__details-logo {
+    display: none;
+  }
+  .popular,
+  .movie__content-info,
+  .device,
+  .educations__content,
+  .freemovie,
+  .kids__content,
+  .cinema__content,
+  .comments,
+  .questions__content,
+  .details__content,
+  .header__content {
+    width: 90%;
+  }
+  .freemovie__content {
+    width: max-content;
+  }
+  .freemovie__content-item {
+    margin-left: 1rem;
+  }
+  .freemovie {
+    margin: 2.5rem auto;
+  }
+  .footer__content-subitems {
+    display: flex;
+    gap: 1.5rem;
+    visibility: visible;
+    opacity: 1;
+    background-color: transparent;
+    position: static;
+    box-shadow: none;
+    transform: none;
+    transition: none;
+    padding: 0;
+  }
+  .footer__content-link-social {
+    display: none;
+  }
+}
+/*! width 992px */
+@media only screen and (max-width: 62em) {
+  html {
+    font-size: 50%;
+  }
+
+  .slider__details-title--white {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .device {
+    margin: 4rem auto;
+  }
+  .comments__content-description-text {
+    line-height: 2.3rem;
+  }
+}
+/*! width 768px */
+@media only screen and (max-width: 48em) {
+  html {
+    font-size: 45%;
+  }
+  .popular__content {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .device {
+    flex-direction: column;
+  }
+  .device__picture {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .device__picture-img {
+    max-width: 70%;
+  }
+  .device__content {
+    width: 100%;
+  }
+  .education__img {
+    display: none;
+  }
+  .education__content-items {
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .education__content-subtitle {
+    -webkit-line-clamp: 2;
+  }
+  .kids__content-img-pic {
+    width: 34rem;
+  }
+  .kids__content-description {
+    width: 100%;
+    text-align: justify;
+  }
+  .cinema__content {
+    padding: 0;
+  }
+  .cinema__head-items {
+    display: none;
+  }
+  .comments__content {
+    flex-wrap: wrap;
+    gap: 11px;
+    justify-content: center;
+  }
+
+  .comments__content-item {
+    width: 45%;
+  }
+  .details__content-items {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  .footer__content {
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .header__content-right {
+    display: none;
+  }
+  .header__content-hamburger {
+    display: block;
+  }
+  .header__content-right {
+    display: flex;
+    width: 50vw;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+    background-color: #151515;
+    position: fixed;
+    right: -100rem;
+    top: 0;
+    border-left: o.1rem solid #fff;
+    box-shadow: -0.5rem 0 1rem rgb(255, 255, 255, 0.3);
+    padding: 8rem 5rem;
+  }
+  .header__content-link {
+    width: 100%;
+  }
+  .header__content-image {
+    max-width: 100%;
+    height: auto;
+    width: auto;
+  }
+  .header__content--line {
+    height: 0.5rem;
+    width: 100%;
+    margin: 5rem 0;
+  }
+  .header__content-item {
+    height: auto;
+    width: 100%;
+    padding: 2rem 0;
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .header__item-text {
+    font-size: 2.5rem;
+  }
+  .header__item-icon {
+    font-size: 2.5rem;
+  }
+  .header__item-close {
+    display: flex;
+  }
+}
+/*! width 576px */
+@media only screen and (max-width: 36em) {
+  .slider__details-items,
+  .slider__details-btn,
+  .movie__content-description-img,
+  .header__left-basket,
+  .header__left-signin {
+    display: none;
+  }
+  .slider__details-content {
+    justify-content: flex-end;
+  }
+  html {
+    font-size: 35%;
+  }
+  .movie__content-film {
+    width: 20rem;
+  }
+  .movie__content-items {
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .movie__bg,
+  .movie__content-description-img {
+    background: none;
+  }
+  .kids__content-img {
+    display: none;
+  }
+  .kids__content {
+    padding: 2.5rem 0;
+  }
+  .kids__content-itm {
+    width: 100%;
+  }
+  .cinema__item {
+    width: 100%;
+  }
+  .cinema__item-image {
+    width: 35%;
+  }
+  .cinema__item-content {
+    width: 62%;
+  }
+  .cinema__item-buy {
+    width: 100%;
+  }
+  .comments__content-item {
+    width: 100%;
+  }
+  .details__content {
+    gap: 3rem;
+  }
+  .footer__content-right {
+    gap: 0.5rem;
+  }
+  .header__content-left {
+    justify-content: flex-end;
+    gap: 1.5rem;
+    align-items: center;
+  }
+  .header__content-left-icon {
+    display: flex;
+  }
+  .header__content-right{
+    width: 80vw;
+  }
+}
